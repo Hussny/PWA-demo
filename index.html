@@ -9,16 +9,7 @@
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
 
-   <!-- register service worker -->
-   <script>
-    if ('serviceWorker' in navigator) 
-        {
-          window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./service-worker.js')
-          .then(() => { console.log("[ PWA Fire Bundle ] Service Worker Registered"); });
-        } ); 
-      }  
-    </script>
+ 
 </head>
 
 <body>
@@ -72,3 +63,14 @@
         </div>
       </section>
       <!--Home Section Ends-->
+          <!-- register service worker -->
+   <script>
+    if ('serviceWorker' in navigator) 
+        {
+          window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./service-worker.js')
+          .then(() => { console.log("[ Yeeeeiii!!! ] Service Worker Registered"); });
+        } ); 
+      }  
+    </script>  
+      </body>
