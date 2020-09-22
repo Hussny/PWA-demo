@@ -19,9 +19,7 @@
                         // Take a list of URLs, then fetch them from the server and add the response to the cache...
                         return cache.addAll([                    
                       './index.html', 
-                      './style.css', 
-                      './script.js', 
-                      './images/*'      
+                      
                       ]);
                     })
                     );
